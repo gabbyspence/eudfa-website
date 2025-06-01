@@ -106,25 +106,30 @@ export default function AboutPage() {
                   name: "Maria Gonzalez",
                   title: "Executive Director",
                   bio: "Former central banker with expertise in financial technology and digital markets regulation.",
+                  image: "/images/avatar.jpg"
                 },
                 {
                   name: "Thomas Weber",
                   title: "Deputy Director for Digital Markets",
                   bio: "Expert in competition law and digital platforms with experience at national competition authorities.",
+                  image: "/images/avatar.jpg"
+
                 },
                 {
                   name: "Sophia Chen",
                   title: "Deputy Director for Financial Innovation",
                   bio: "Fintech specialist with background in both private sector innovation and regulatory oversight.",
+                  image: "/images/avatar.jpg"
+
                 },
               ].map((person, index) => (
                 <div key={index} className="border rounded-md overflow-hidden hover:shadow-md transition-shadow">
                   <div className="relative h-48">
                     <Image
-                      src={`/placeholder.svg?height=200&width=300&text=${person.name}`}
+                      src={person.image}
                       alt={person.name}
                       fill
-                      className="object-cover"
+                      className="object-conver"
                     />
                   </div>
                   <div className="p-4">

@@ -85,20 +85,23 @@ export default function Home() {
                   {
                     title: "EDFA launches new Digital Markets Oversight Framework",
                     desc: "The framework aims to ensure fair competition in digital platforms and protect consumers in the rapidly evolving digital marketplace.",
+                    image: "/images/digital-justice.jpg"
                   },
                   {
                     title: "Cryptocurrency Regulation Guidelines Published",
                     desc: "New guidelines provide clarity on the regulatory approach to cryptocurrencies, stablecoins, and decentralized finance within the EU.",
+                    image: "/images/crypto.webp"
                   },
                   {
                     title: "EDFA issues warning on AI-based financial scams",
                     desc: "The authority warns consumers about sophisticated financial scams using artificial intelligence to impersonate legitimate financial services.",
+                    image: "/images/ai-robot.avif"
                   },
                 ].map((item, index) => (
                   <div key={index} className="border rounded-md overflow-hidden hover:shadow-md transition-shadow">
                     <div className="relative h-40">
                       <Image
-                        src={`/placeholder.svg?height=200&width=400&text=News+Image+${index + 1}`}
+                        src={item.image}
                         alt={`News item ${index + 1}`}
                         fill
                         className="object-cover"

@@ -222,7 +222,7 @@ export default function ConsumersPage() {
                 <div className="border rounded-md overflow-hidden hover:shadow-md transition-shadow h-full">
                   <div className="relative h-40">
                     <Image
-                      src="/placeholder.svg?height=200&width=400&text=Crypto+Guide"
+                      src="/images/btc-eth.png"
                       alt="Crypto Guide"
                       fill
                       className="object-cover"
@@ -242,7 +242,7 @@ export default function ConsumersPage() {
                 <div className="border rounded-md overflow-hidden hover:shadow-md transition-shadow h-full">
                   <div className="relative h-40">
                     <Image
-                      src="/placeholder.svg?height=200&width=400&text=Digital+Banking"
+                      src="/images/digital-wallet.png"
                       alt="Digital Banking"
                       fill
                       className="object-cover"
@@ -262,7 +262,7 @@ export default function ConsumersPage() {
                 <div className="border rounded-md overflow-hidden hover:shadow-md transition-shadow h-full">
                   <div className="relative h-40">
                     <Image
-                      src="/placeholder.svg?height=200&width=400&text=Online+Safety"
+                      src="/images/financial-security.webp"
                       alt="Online Safety"
                       fill
                       className="object-cover"
