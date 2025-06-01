@@ -160,7 +160,7 @@ export default function AboutPage() {
               <div className="w-full md:w-1/3">
                 <div className="relative h-48 md:h-full rounded-md overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=300&width=400&text=Strategic+Plan"
+                    src="/images/strategic-planning.png"
                     alt="Strategic Plan"
                     fill
                     className="object-cover"
