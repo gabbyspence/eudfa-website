@@ -266,26 +266,46 @@ export default function Home() {
             <h2 className="text-xl font-bold text-[#004494] mb-6">EU Cooperation</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                "European Banking Authority (EBA)",
-                "European Securities and Markets Authority (ESMA)",
-                "European Data Protection Board (EDPB)",
-                "European Union Agency for Cybersecurity (ENISA)",
+                // "European Banking Authority (EBA)",
+                // "European Securities and Markets Authority (ESMA)",
+                // "European Data Protection Board (EDPB)",
+                // "European Union Agency for Cybersecurity (ENISA)",
+                {
+                  name: "European Banking Authority (EBA)",
+                  link: "#",
+                  logo: '/images/eba-logo.png',
+                },
+                {
+                  name: "European Securities and Markets Authority (ESMA)",
+                  link: "#",
+                  logo: '/images/esma-logo.png',
+                },
+                {
+                  name: "European Data Protection Board (EDPB)",
+                  link: "#",
+                  logo: '/images/edpb-logo.png',
+                },
+                {
+                  name: "European Union Agency for Cybersecurity (ENISA)",
+                  link: "#",
+                  logo: '/images/enisa-logo.png',
+                },
               ].map((org, index) => (
                 <Link
                   key={index}
-                  href="#"
+                  href={org.link}
                   className="flex items-center p-4 border rounded-md hover:shadow-md transition-shadow"
                 >
-                  <div className="w-12 h-12 relative mr-3 flex-shrink-0">
+                  <div className="relative mr-3 flex-shrink-0">
                     <Image
-                      src={`/placeholder.svg?height=48&width=48&text=Logo`}
-                      alt={org}
-                      width={48}
-                      height={48}
-                      className="object-contain"
+                      src={org.logo}
+                      alt={org.name}
+                      width={50}
+                      height={50}
+                      className="object-cover"
                     />
                   </div>
-                  <span className="text-sm text-[#004494]">{org}</span>
+                  <span className="text-sm text-[#004494]">{org.name}</span>
                   <ExternalLink className="ml-auto h-3 w-3 text-gray-400 flex-shrink-0" />
                 </Link>
               ))}
