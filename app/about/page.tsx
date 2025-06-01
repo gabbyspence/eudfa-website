@@ -81,7 +81,7 @@ export default function AboutPage() {
                 <div className="mt-6 border rounded-md overflow-hidden">
                   <div className="relative h-48">
                     <Image
-                      src="/placeholder.svg?height=200&width=300&text=EDFA+Headquarters"
+                      src="/images/hq.jpg"
                       alt="EDFA Headquarters"
                       fill
                       className="object-cover"

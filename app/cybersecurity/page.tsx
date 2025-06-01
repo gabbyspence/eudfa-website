@@ -237,7 +237,7 @@ export default function CybersecurityPage() {
               <div className="w-full md:w-1/3">
                 <div className="relative h-48 md:h-full rounded-md overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=300&width=400&text=DORA+Framework"
+                    src="/images/encryption_hero.webp"
                     alt="DORA Framework"
                     fill
                     className="object-cover"

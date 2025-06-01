@@ -234,7 +234,7 @@ export default function FinancialOversightPage() {
               <div className="w-full md:w-1/3">
                 <div className="relative h-48 md:h-full rounded-md overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=300&width=400&text=Regulatory+Sandbox"
+                    src="/images/sandbox-fintech.webp"
                     alt="Regulatory Sandbox"
                     fill
                     className="object-cover"

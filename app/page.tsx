@@ -39,7 +39,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 mt-6 md:mt-0">
               <div className="relative h-48 md:h-64 rounded-md overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=300&width=500&text=Digital+Finance"
+                  src="/images/eu-map.jpg"
                   alt="Digital Finance"
                   fill
                   className="object-cover"
@@ -251,7 +251,7 @@ export default function Home() {
               <div className="w-full md:w-1/3">
                 <div className="relative h-48 md:h-full rounded-md overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=300&width=400&text=Digital+Strategy"
+                    src="/images/digital-finance.avif"
                     alt="Digital Finance Strategy"
                     fill
                     className="object-cover"
