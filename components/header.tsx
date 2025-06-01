@@ -105,7 +105,7 @@ export function Header() {
             {[
               { name: "Home", href: "/" },
               { name: "About", href: "/about" },
-              { name: "Digital Regulation", href: "/digital-regulation" },
+              // { name: "Digital Regulation", href: "/digital-regulation" },
               { name: "Financial Oversight", href: "/financial-oversight" },
               { name: "Cybersecurity", href: "/cybersecurity" },
               { name: "Consumers", href: "/consumers" },
